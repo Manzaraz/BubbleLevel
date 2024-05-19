@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		61C099112BF94B9E006EDFCC /* BubbleLevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C099102BF94B9E006EDFCC /* BubbleLevelApp.swift */; };
-		61C099132BF94B9E006EDFCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C099122BF94B9E006EDFCC /* ContentView.swift */; };
+		61C099132BF94B9E006EDFCC /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C099122BF94B9E006EDFCC /* LevelView.swift */; };
 		61C099152BF94BA1006EDFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C099142BF94BA1006EDFCC /* Assets.xcassets */; };
 		61C099182BF94BA1006EDFCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C099172BF94BA1006EDFCC /* Preview Assets.xcassets */; };
 		61C0991F2BF94BFB006EDFCC /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C0991E2BF94BFB006EDFCC /* MotionDetector.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		61C0990D2BF94B9E006EDFCC /* BubbleLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C099102BF94B9E006EDFCC /* BubbleLevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevelApp.swift; sourceTree = "<group>"; };
-		61C099122BF94B9E006EDFCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61C099122BF94B9E006EDFCC /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		61C099142BF94BA1006EDFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C099172BF94BA1006EDFCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61C0991E2BF94BFB006EDFCC /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
@@ -60,11 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				61C099102BF94B9E006EDFCC /* BubbleLevelApp.swift */,
-				61C099122BF94B9E006EDFCC /* ContentView.swift */,
+				61C099242BF964B1006EDFCC /* BubbleLevel.swift */,
+				61C099122BF94B9E006EDFCC /* LevelView.swift */,
 				61C0991E2BF94BFB006EDFCC /* MotionDetector.swift */,
 				61C099222BF96273006EDFCC /* DoubleExtension.swift */,
 				61C099202BF9616A006EDFCC /* OrientationDataView.swift */,
-				61C099242BF964B1006EDFCC /* BubbleLevel.swift */,
 				61C099142BF94BA1006EDFCC /* Assets.xcassets */,
 				61C099162BF94BA1006EDFCC /* Preview Content */,
 			);
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61C099232BF96273006EDFCC /* DoubleExtension.swift in Sources */,
-				61C099132BF94B9E006EDFCC /* ContentView.swift in Sources */,
+				61C099132BF94B9E006EDFCC /* LevelView.swift in Sources */,
 				61C099252BF964B1006EDFCC /* BubbleLevel.swift in Sources */,
 				61C099212BF9616A006EDFCC /* OrientationDataView.swift in Sources */,
 				61C099112BF94B9E006EDFCC /* BubbleLevelApp.swift in Sources */,
